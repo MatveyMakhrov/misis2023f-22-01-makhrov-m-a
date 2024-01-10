@@ -117,8 +117,8 @@ int main(int, char**)
     bool AutomaticMarking = false;
 
 
-    cv::Mat image = cv::imread("C:/z/Image.test/3d.jpg");
-    cv::Mat pores = cv::imread("C:/z/Image.test/pory.png");
+    cv::Mat image = cv::imread("../../../../prj.cw/res/3d.jpg");
+    cv::Mat pores = cv::imread("../../../../prj.cw/res/pory.png");
 
     ImVec4 clear_color = ImVec4(0.1f, 0.4f, 0.72f, 1.00f);
 
